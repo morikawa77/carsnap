@@ -139,10 +139,10 @@ app.*.symbols
 !.vscode/settings.json
 
 # Builds
-**/builds/app/
-**/builds/cloud_firestore/
-**/builds/firebase_auth/
-**/builds/firebase_core/
-**/builds/flutter_plugin_android_lifecycle/
-**/builds/image_picker_android/
-**/build/ios/
+**/builds/app/*
+**/builds/cloud_firestore/*
+**/builds/firebase_auth/*
+**/builds/firebase_core/*
+**/builds/flutter_plugin_android_lifecycle/*
+**/builds/image_picker_android/*
+**/build/ios/*
