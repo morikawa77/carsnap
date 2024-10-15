@@ -140,12 +140,12 @@ app.*.symbols
 !.vscode/settings.json
 
 # Exceptions to web build
-!web/**
-!web/assets/**
-!web/assets/assets/**
-!web/assets/assets/images/**
-!web/assets/fonts/**
-!web/assets/packages/**
-!web/assets/packages/cupertino_icons/**
-!web/assets/packages/cupertino_icons/assets/**
-!web/assets/shaders/**
+!web/
+!web/assets/
+!web/assets/assets/
+!web/assets/assets/images/
+!web/assets/fonts/
+!web/assets/packages/
+!web/assets/packages/cupertino_icons/
+!web/assets/packages/cupertino_icons/assets/
+!web/assets/shaders/
