@@ -58,7 +58,6 @@ analysis_benchmark.json
 .pub-preload-cache/
 .pub-cache/
 .pub/
-build/
 flutter_*.png
 linked_*.ds
 unlinked.ds
@@ -139,13 +138,11 @@ app.*.symbols
 !/dev/ci/**/Gemfile.lock
 !.vscode/settings.json
 
-# Exceptions to web build
-!web/
-!web/assets/
-!web/assets/assets/
-!web/assets/assets/images/
-!web/assets/fonts/
-!web/assets/packages/
-!web/assets/packages/cupertino_icons/
-!web/assets/packages/cupertino_icons/assets/
-!web/assets/shaders/
+# Builds
+builds/app/**
+builds/cloud_firestore/**
+builds/firebase_auth/**
+builds/firebase_core/**
+builds/flutter_plugin_android_lifecycle/**
+builds/image_picker_android/**
+build/ios/**
