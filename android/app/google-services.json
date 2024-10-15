@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "818112359670",
+    "project_id": "carsnap-9ea99",
+    "storage_bucket": "carsnap-9ea99.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:818112359670:android:e276df1dc1020cb2a1d0d7",
+        "android_client_info": {
+          "package_name": "com.carsnap.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIR-bFYO-TAb64OcSIPDPsY4RNRgQcNbU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
