@@ -138,3 +138,14 @@ app.*.symbols
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
 !/dev/ci/**/Gemfile.lock
 !.vscode/settings.json
+
+# Exceptions to web build
+!build/web/
+!build/web/assets/
+!build/web/assets/assets/
+!build/web/assets/assets/images/
+!build/web/assets/fonts/
+!build/web/assets/packages/
+!build/web/assets/packages/cupertino_icons/
+!build/web/assets/packages/cupertino_icons/assets/
+!build/web/assets/shaders/
